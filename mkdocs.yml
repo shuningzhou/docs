@@ -1,0 +1,39 @@
+site_name: Documentation
+nav:
+    - Quick Start: index.md
+    - about: about.md
+    - Lobby:
+      - Introduction: lobby/intro.md
+      - Getting started: lobby/quickstart.md
+    - Gameplay:
+      - Getting started:
+        - Getting started: gameplay/quickstart.md
+    - Developer Portal:
+      - Getting started: portal/quickstart.md
+    - Overview:
+      - Getting started: overview/quickstart.md
+
+
+theme:
+  name: 'material'
+  language: 'en'
+  feature:
+    tabs: true
+  palette:
+    primary: 'white'
+    accent: 'white'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  favicon: img/favicon.png
+  logo: img/logo-full.png
+
+extra_css: ['stylesheets/extra.css']
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
